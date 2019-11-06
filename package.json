@@ -21,7 +21,7 @@
     "sparkles": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^1.3.1"
+    "eslint": "^6.6.0"
   },
   "keywords": [
     "gulp-util",
