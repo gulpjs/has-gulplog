@@ -2,7 +2,7 @@
 
 var sparkles = require('sparkles');
 
-function hasGulplog(){
+function hasGulplog() {
   return sparkles.exists('gulplog');
 }
 

@@ -15,7 +15,7 @@ Check if gulplog is available before attempting to use it.
 ```js
 const hasGulplog = require('has-gulplog');
 
-hasGulplog() // true if gulplog is available 
+hasGulplog(); // true if gulplog is available
 ```
 
 ## API
