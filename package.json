@@ -1,6 +1,6 @@
 {
   "name": "has-gulplog",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Check if gulplog is available before attempting to use it",
   "author": "Gulp Team <team@gulpjs.com> (https://gulpjs.com/)",
   "contributors": [],
