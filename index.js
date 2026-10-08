@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
-var sparkles = require('sparkles');
+var sparkles = require("sparkles");
 
 function hasGulplog() {
-  return sparkles.exists('gulplog');
+  return sparkles.exists("gulplog");
 }
 
 module.exports = hasGulplog;
