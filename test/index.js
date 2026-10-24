@@ -1,24 +1,22 @@
 "use strict";
 
-var expect = require("expect");
+var assert = require("node:assert");
+var { describe, it } = require("node:test");
+
 var sparkles = require("sparkles");
 
 var hasGulplog = require("../");
 
 describe("has-gulplog", function () {
-  it("returns false if gulplog is not available", function (done) {
-    expect(hasGulplog()).toEqual(false);
-    done();
+  it("returns false if gulplog is not available", function () {
+    assert.strictEqual(hasGulplog(), false);
   });
 
-  it("returns true if gulplog is available", function (done) {
+  it("returns true if gulplog is available", function () {
     // install a fake gulplog
     var ee = sparkles("gulplog");
 
-    expect(hasGulplog()).toEqual(true);
-
+    assert.strictEqual(hasGulplog(), true);
     ee.remove();
-
-    done();
   });
 });
